@@ -16,6 +16,22 @@
 \usepackage[margin=2.5cm]{geometry}
 \usepackage{lmodern}
 \usepackage[style=verbose-ibid,backend=bibtex]{biblatex}
+\usepackage{csquotes}
+\usepackage{comment}
+\usepackage{fancyhdr}
+\usepackage{setspace}
+\onehalfspacing
+
+% Appendix, attachments management
+\usepackage[toc,page]{appendix} %
+\renewcommand{\appendixtocname}{Appendiks}
+\renewcommand{\appendixpagename}{\centering{Appendiks}}
+\usepackage{pdfpages} % Including PDF-pages
+    \usepackage{eso-pic}
+    \usepackage{atbegshi}
+    \usepackage{ifthen}
+    \usepackage{calc}
+
 \addbibresource{bibliography.bib}
 \hypersetup{colorlinks, linkcolor=blue, urlcolor=blue}
 \author{Rasmus Elias Sandkær \& Jeppe Bøgeskov Bech}
@@ -37,5 +53,18 @@
 \newpage
 
 \section{Indledning}
+Der er en grim mand \footfullcite{krisemanual}.
+
+
+\newpage
+\printbibliography[heading=bibintoc,title={Litteraturliste}]
+
+\newpage
+\begin{appendices}\newpage
+    \renewcommand{\thesubsection}{\Alph{subsection}}
+    \subsection{Projektbeskrivelse \label{apx:projektbeskrivels}} \newpage
+    \renewcommand*{\thepage}{A\arabic{page}}
+    \includepdf[pages=-,delta=5 5,frame=true,landscape=false,nup=1x1,pagecommand={\thispagestyle{plain}}]{./projektbeskrivelse.pdf}
+\end{appendices}
 
 \end{document}
