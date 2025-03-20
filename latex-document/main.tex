@@ -1,5 +1,3 @@
-% Created 2025-02-27 Thu 15:15
-% Intended LaTeX compiler: pdflatex
 \documentclass[11pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
@@ -21,7 +19,6 @@
 \usepackage{fancyhdr}
 \usepackage{setspace}
 \onehalfspacing
-
 % Appendix, attachments management
 \usepackage[toc,page]{appendix} %
 \renewcommand{\appendixtocname}{Appendiks}
@@ -31,40 +28,42 @@
     \usepackage{atbegshi}
     \usepackage{ifthen}
     \usepackage{calc}
-
 \addbibresource{bibliography.bib}
 \hypersetup{colorlinks, linkcolor=blue, urlcolor=blue}
 \author{Rasmus Elias Sandkær \& Jeppe Bøgeskov Bech}
 \date{\today}
 \title{Eksamensprojekt}
 \hypersetup{
- pdfauthor={Rasmus Elias Sandkær \& Jeppe Bøgeskov Bech},
- pdftitle={Eksamensprojekt},
- pdfkeywords={},
- pdfsubject={},
- pdfcreator={Emacs 29.4 (Org mode 9.7.11)}, 
- pdflang={Danish}}
+pdfauthor={Rasmus Elias Sandkær \& Jeppe Bøgeskov Bech},
+pdftitle={Eksamensprojekt},
+pdfkeywords={},
+pdfsubject={},
+pdfcreator={Emacs 29.4 (Org mode 9.7.11)}, 
+pdflang={Danish}}
+
+%% Start af dokumentet
 \begin{document}
+    %% Forside
+    \input{./forside.tex}
+    \restoregeometry
+    \tableofcontents
+    \newpage
 
-\input{./forside.tex}
-
-\restoregeometry
-\tableofcontents
-\newpage
-
-\section{Indledning}
-Der er en grim mand \footfullcite{krisemanual}.
+    %% Indledning
+    \section{Indledning}
+    \input{./src/indledning.tex}
 
 
-\newpage
-\printbibliography[heading=bibintoc,title={Litteraturliste}]
+    %% Bibliografi
+    \newpage
+    \printbibliography[heading=bibintoc,title={Litteraturliste}]
 
-\newpage
-\begin{appendices}\newpage
-    \renewcommand{\thesubsection}{\Alph{subsection}}
-    \subsection{Projektbeskrivelse \label{apx:projektbeskrivels}} \newpage
-    \renewcommand*{\thepage}{A\arabic{page}}
-    \includepdf[pages=-,delta=5 5,frame=true,landscape=false,nup=1x1,pagecommand={\thispagestyle{plain}}]{./projektbeskrivelse.pdf}
-\end{appendices}
-
+    %% Appendiks
+    \newpage
+    \begin{appendices}\newpage
+        \renewcommand{\thesubsection}{\Alph{subsection}}
+        \subsection{Projektbeskrivelse \label{apx:projektbeskrivels}} \newpage
+        \renewcommand*{\thepage}{A\arabic{page}}
+        \includepdf[pages=-,delta=5 5,frame=true,landscape=false,nup=1x1,pagecommand={\thispagestyle{plain}}]{./projektbeskrivelse.pdf}
+    \end{appendices}
 \end{document}
