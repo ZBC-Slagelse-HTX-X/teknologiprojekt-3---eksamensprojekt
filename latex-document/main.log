@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.3.24)  1 APR 2025 11:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.3.24)  8 APR 2025 10:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -597,7 +597,16 @@ Package csquotes Info: ... configuration file loaded successfully.
 File: csquotes.cfg 
 )) (/usr/share/texmf-dist/tex/latex/comment/comment.sty
 \CommentStream=\write4
- Excluding comment 'comment') (/usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+ Excluding comment 'comment') (/usr/share/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count440
+\float@exts=\toks31
+\float@box=\box65
+\@float@everytoks=\toks32
+\@floatcapt=\box66
+) (/usr/share/texmf-dist/tex/latex/parskip/parskip.sty
+Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
+) (/usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 \f@nch@headwidth=\skip84
 \f@nch@offset@elh=\skip85
@@ -613,27 +622,27 @@ Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 \f@nch@widthL=\skip95
 \f@nch@widthC=\skip96
 \f@nch@widthR=\skip97
-\@temptokenb=\toks31
+\@temptokenb=\toks33
 ) (/usr/share/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
 ) (/usr/share/texmf-dist/tex/latex/appendix/appendix.sty
 Package: appendix 2020/02/08 v1.2c extra appendix facilities
-\c@@pps=\count440
-\c@@ppsavesec=\count441
-\c@@ppsaveapp=\count442
+\c@@pps=\count441
+\c@@ppsavesec=\count442
+\c@@ppsaveapp=\count443
 ) (/usr/share/texmf-dist/tex/latex/pdfpages/pdfpages.sty
 Package: pdfpages 2025/01/30 v0.6e Insert pages of external PDF documents (AM)
  (/usr/share/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count443
-\calc@Bcount=\count444
+\calc@Acount=\count444
+\calc@Bcount=\count445
 \calc@Adimen=\dimen172
 \calc@Bdimen=\dimen173
 \calc@Askip=\skip98
 \calc@Bskip=\skip99
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count445
+\calc@Ccount=\count446
 \calc@Cskip=\skip100
 ) (/usr/share/texmf-dist/tex/latex/eso-pic/eso-pic.sty
 Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
@@ -662,64 +671,64 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
  (/usr/share/texmf-dist/tex/latex/pdfpages/pppdftex.def
 File: pppdftex.def 2025/01/30 v0.6e Pdfpages driver for pdfTeX (AM)
 )
-\pdfpages@includegraphics@status=\count446
-\AM@pagebox=\box65
-\AM@global@opts=\toks32
-\AM@pagecnt=\count447
-\AM@toc@title=\toks33
-\AM@lof@heading=\toks34
-\c@AM@survey=\count448
-\AM@templatesizebox=\box66
+\pdfpages@includegraphics@status=\count447
+\AM@pagebox=\box67
+\AM@global@opts=\toks34
+\AM@pagecnt=\count448
+\AM@toc@title=\toks35
+\AM@lof@heading=\toks36
+\c@AM@survey=\count449
+\AM@templatesizebox=\box68
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 32.
+Package hyperref Info: Option `colorlinks' set `true' on input line 34.
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'danish'.
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 45.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 47.
  (/usr/share/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
  (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count449
+\scratchcounter=\count450
 \scratchdimen=\dimen179
-\scratchbox=\box67
-\nofMPsegments=\count450
-\nofMParguments=\count451
-\everyMPshowfont=\toks35
-\MPscratchCnt=\count452
+\scratchbox=\box69
+\nofMPsegments=\count451
+\nofMParguments=\count452
+\everyMPshowfont=\toks37
+\MPscratchCnt=\count453
 \MPscratchDim=\dimen180
-\MPnumerator=\count453
-\makeMPintoPDFobject=\count454
-\everyMPtoPDFconversion=\toks36
+\MPnumerator=\count454
+\makeMPintoPDFobject=\count455
+\everyMPtoPDFconversion=\toks38
 ) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring ON on input line 45.
+Package hyperref Info: Link coloring ON on input line 47.
  (./main.out) (./main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
@@ -775,8 +784,8 @@ Package biblatex Info: Data encoding 'utf8' specified.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (./main.bbl)
-Package biblatex Info: Reference section=0 on input line 45.
-Package biblatex Info: Reference segment=0 on input line 45.
+Package biblatex Info: Reference section=0 on input line 47.
+Package biblatex Info: Reference segment=0 on input line 47.
  (/usr/share/texmf-dist/tex/latex/pdflscape/pdflscape.sty
 Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
  (/usr/share/texmf-dist/tex/latex/pdflscape/pdflscape-nometadata.sty
@@ -871,47 +880,63 @@ Overfull \hbox (24.00002pt too wide) in paragraph at lines 29--42
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.50     \newpage
+l.52     \newpage
                   [1
 
-] (./src/indledning.tex)
+] (./src/indledning.tex
+<images/problem-identification.png, id=46, 1318.9275pt x 693.59125pt>
+File: images/problem-identification.png Graphic file (type png)
+<use images/problem-identification.png>
+Package pdftex.def Info: images/problem-identification.png  used on input line 13.
+(pdftex.def)             Requested size: 472.03123pt x 248.23215pt.
 
-[2]
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 13--14
+ [][] 
+ []
 
-LaTeX Warning: Empty bibliography on input line 59.
+)
+
+[2
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.60     \newpage
+                  <./images/problem-identification.png (PNG copy)>]
+
+LaTeX Warning: Empty bibliography on input line 61.
 
 
 
 [3]
 
 [4]
-<./projektbeskrivelse.pdf, id=53, 597.50829pt x 845.0471pt>
+<./projektbeskrivelse.pdf, id=60, 597.50829pt x 845.0471pt>
 File: ./projektbeskrivelse.pdf Graphic file (type pdf)
 <use ./projektbeskrivelse.pdf>
-Package pdftex.def Info: ./projektbeskrivelse.pdf  used on input line 67.
+Package pdftex.def Info: ./projektbeskrivelse.pdf  used on input line 69.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-<./projektbeskrivelse.pdf, id=55, page=1, 597.50829pt x 845.0471pt>
+<./projektbeskrivelse.pdf, id=62, page=1, 597.50829pt x 845.0471pt>
 File: ./projektbeskrivelse.pdf Graphic file (type pdf)
 <use ./projektbeskrivelse.pdf, page 1>
-Package pdftex.def Info: ./projektbeskrivelse.pdf , page1 used on input line 67.
+Package pdftex.def Info: ./projektbeskrivelse.pdf , page1 used on input line 69.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: ./projektbeskrivelse.pdf Graphic file (type pdf)
 <use ./projektbeskrivelse.pdf, page 1>
-Package pdftex.def Info: ./projektbeskrivelse.pdf , page1 used on input line 67.
+Package pdftex.def Info: ./projektbeskrivelse.pdf , page1 used on input line 69.
 (pdftex.def)             Requested size: 561.55757pt x 794.20256pt.
 File: ./projektbeskrivelse.pdf Graphic file (type pdf)
 <use ./projektbeskrivelse.pdf, page 1>
-Package pdftex.def Info: ./projektbeskrivelse.pdf , page1 used on input line 67.
+Package pdftex.def Info: ./projektbeskrivelse.pdf , page1 used on input line 69.
 (pdftex.def)             Requested size: 561.55757pt x 794.20256pt.
 File: ./projektbeskrivelse.pdf Graphic file (type pdf)
 <use ./projektbeskrivelse.pdf, page 1>
-Package pdftex.def Info: ./projektbeskrivelse.pdf , page1 used on input line 67.
+Package pdftex.def Info: ./projektbeskrivelse.pdf , page1 used on input line 69.
 (pdftex.def)             Requested size: 561.55757pt x 794.20256pt.
 
 
 File: ./projektbeskrivelse.pdf Graphic file (type pdf)
 <use ./projektbeskrivelse.pdf, page 1>
-Package pdftex.def Info: ./projektbeskrivelse.pdf , page1 used on input line 67.
+Package pdftex.def Info: ./projektbeskrivelse.pdf , page1 used on input line 69.
 (pdftex.def)             Requested size: 561.55757pt x 794.20256pt.
 [5
 
@@ -921,24 +946,24 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 15696EAAA920F9A77229D0DDE4CBE859;466.
+(rerunfilecheck)             Checksum: 91761AD3898370909A6871C57E917286;628.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21581 strings out of 474047
- 368860 string characters out of 5740381
- 1004716 words of memory out of 5000000
- 44454 multiletter control sequences out of 15000+600000
+ 21695 strings out of 474047
+ 371089 string characters out of 5740381
+ 1006912 words of memory out of 5000000
+ 44559 multiletter control sequences out of 15000+600000
  599594 words of font info for 65 fonts, out of 8000000 for 9000
  600 hyphenation exceptions out of 8191
- 75i,18n,81p,1954b,1753s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,18n,81p,1954b,1755s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main.pdf (6 pages, 209175 bytes).
+Output written on main.pdf (6 pages, 258768 bytes).
 PDF statistics:
- 121 PDF objects out of 1000 (max. 8388607)
- 89 compressed objects within 1 object stream
- 11 named destinations out of 1000 (max. 500000)
- 48 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 129 PDF objects out of 1000 (max. 8388607)
+ 96 compressed objects within 1 object stream
+ 13 named destinations out of 1000 (max. 500000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -181,6 +181,10 @@ INPUT /usr/share/texmf-dist/tex/latex/csquotes/csquotes.cfg
 INPUT /usr/share/texmf-dist/tex/latex/csquotes/csquotes.cfg
 INPUT /usr/share/texmf-dist/tex/latex/comment/comment.sty
 INPUT /usr/share/texmf-dist/tex/latex/comment/comment.sty
+INPUT /usr/share/texmf-dist/tex/latex/float/float.sty
+INPUT /usr/share/texmf-dist/tex/latex/float/float.sty
+INPUT /usr/share/texmf-dist/tex/latex/parskip/parskip.sty
+INPUT /usr/share/texmf-dist/tex/latex/parskip/parskip.sty
 INPUT /usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 INPUT /usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 INPUT /usr/share/texmf-dist/tex/latex/setspace/setspace.sty
@@ -303,6 +307,11 @@ INPUT ./src/indledning.tex
 INPUT ./src/indledning.tex
 INPUT ./src/indledning.tex
 INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmbx12.tfm
+INPUT ./images/problem-identification.png
+INPUT ./images/problem-identification.png
+INPUT ./images/problem-identification.png
+INPUT ./images/problem-identification.png
+INPUT ./images/problem-identification.png
 INPUT ./projektbeskrivelse.pdf
 INPUT ./projektbeskrivelse.pdf
 INPUT ./projektbeskrivelse.pdf
