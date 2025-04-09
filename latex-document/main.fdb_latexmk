@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex main"] 1744101606.90034 "main.aux" "main.bbl" "main" 1744102209.73031 0
+["bibtex main"] 1744228101.03003 "main.aux" "main.bbl" "main" 1744228429.74032 0
   "./bibliography.bib" 1742290642.27567 237 c2d6b91cf21b2bb825d590d53f11ed52 ""
-  "./main-blx.bib" 1744102209.45413 342 20d1170ef6c1d70c658d70e011e08dba ""
+  "./main-blx.bib" 1744228429.44016 342 20d1170ef6c1d70c658d70e011e08dba ""
   "/usr/share/texmf-dist/bibtex/bst/biblatex/biblatex.bst" 1742685315 65510 b1f696b0241395385f422f67543c37fd ""
-  "main.aux" 1744102209.45013 1280 34b243c7f4c4e33d4cf5aadef56c6d7c "pdflatex"
+  "main.aux" 1744228429.43616 1399 d4f6e75b9d50342c41278a31e190008d "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1744102208.64959 "/home/arkemis/Documents/GitHub/teknologiprojekt-3---eksamensprojekt/latex-document/main.tex" "main.pdf" "main" 1744102209.73052 0
+["pdflatex"] 1744228428.63048 "/home/arkemis/Documents/GitHub/teknologiprojekt-3---eksamensprojekt/latex-document/main.tex" "main.pdf" "main" 1744228429.74052 0
   "/home/arkemis/Documents/GitHub/teknologiprojekt-3---eksamensprojekt/latex-document/main.tex" 1744100824.70121 1986 4e3a0052e4e15cabe7127b6000a8c5cc ""
   "/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1742685315 2375 baa924870cfb487815765f9094cf3728 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1742685315 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -157,14 +157,14 @@
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1742801074 2750389 9991351e2f21d0e6615dfe872a90ccf0 ""
   "forside.tex" 1741773306.3689 1398 f84bff4c3ca4603ca57a7aeab4570178 ""
   "images/problem-identification.png" 1744101560.89294 46370 53d2d4eef6be4278085d8b061c47a4ce ""
-  "main.aux" 1744102209.45013 1280 34b243c7f4c4e33d4cf5aadef56c6d7c "pdflatex"
-  "main.bbl" 1744101606.96506 519 9b1193ea42022b65f5e4436756b83bc1 "bibtex main"
-  "main.out" 1744102209.45213 628 91761ad3898370909a6871c57e917286 "pdflatex"
-  "main.run.xml" 1744102209.45589 2568 f15c6e26b58085b89e2a2d74eabcc4f5 "pdflatex"
+  "main.aux" 1744228429.43616 1399 d4f6e75b9d50342c41278a31e190008d "pdflatex"
+  "main.bbl" 1744228101.09465 519 9b1193ea42022b65f5e4436756b83bc1 "bibtex main"
+  "main.out" 1744228429.43916 743 7d423d2b0f10888721d06a1ba2f92d34 "pdflatex"
+  "main.run.xml" 1744228429.44255 2568 f15c6e26b58085b89e2a2d74eabcc4f5 "pdflatex"
   "main.tex" 1744100824.70121 1986 4e3a0052e4e15cabe7127b6000a8c5cc ""
-  "main.toc" 1744102209.45589 397 ad0eac01e5a752c5ee6a857d7b427adb "pdflatex"
+  "main.toc" 1744228429.44255 475 06ecab5d5a9a17194e65e40a75f19e47 "pdflatex"
   "projektbeskrivelse.pdf" 1742289419.81767 52033 aa245e6d6834f151a6c54f115bbf639c ""
-  "src/indledning.tex" 1744102208.45348 783 3e2a892d8e6e0a2d91f41fd82ea93a92 ""
+  "src/indledning.tex" 1744228428.43617 1437 761cb74f99563cf10e6ab6908771a588 ""
   (generated)
   "main-blx.bib"
   "main.aux"
