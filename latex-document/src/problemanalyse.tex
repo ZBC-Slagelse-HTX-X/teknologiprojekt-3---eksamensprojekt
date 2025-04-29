@@ -1,7 +1,7 @@
 Det følgende afsnit vil indeholde en omfattende besvarelse af spørgsmålene som ses i problemformuleringen.
 
 \subsection{Spørgsmål A}
-I dette afsnit vil vi besvare spørgsmålet: ``Hvordan kan vi gøre nødstilfælde nemmere at håndtere under krig?''
+I dette afsnit vil vi besvare spørgsmålet: ``Hvordan kan vi gøre nødstilfælde nemmere at håndtere ?''
 
 Her tager vi fat i en HV-model, som er en model til at finde ud af, hvordan man kan håndtere problemet.
 
@@ -12,36 +12,32 @@ Her tager vi fat i en HV-model, som er en model til at finde ud af, hvordan man 
         1. Hvad? &
         \begin{itemize}
             \item Hvad skal man gøre, når man har brug for nødhjælp?
-            \item Hvad bliver gjort?
-            \item Hvad burde blive gjort?
-            \item Hvad kan ellers gøres?
-            \item Hvad burde ellers blive gjort?
+            \item Hvad bliver gjort, i nødstilfælde?
+            \item Hvad burde blive gjort, under nødstilfælde?
+            \item Hvad kan ellers gøres, i et nødstilfælde?
+            \item Hvad burde ellers blive gjort, i et nødstilfælde?
+
         \end{itemize} \\
         \hline
         2. Hvorfor? &
         \begin{itemize}
-            \item Hvorfor gør han/hun det?
-            \item Hvorfor gøre det?
-            \item Hvorfor gøre det der?
-            \item Hvorfor gøre det på det tidspunkt?
-            \item Hvorfor gøre det på den måde?
+            \item Hvorfor gør han/hun det at kalde efter nødhjælp?
+            \item Hvorfor ringe efter nødhjælp?
+            \item Hvorfor gør man det på den måde at man skal fortage et opkald?
         \end{itemize} \\
         \hline
         3. Hvem? &
         \begin{itemize}
-            \item Hvem gør det?
-            \item Hvem burde gøre det?
-            \item Hvem kan ellers gøre det?
-            \item Hvem burde ellers gøre det?
+            \item Hvem ringer efter nødhjælp?
+            \item Hvem burde ringe efter nødhjælp?
+            \item Hvem kan ellers ringe efter nødhjælp?
         \end{itemize} \\
         \hline
         4. Hvor? &
         \begin{itemize}
-            \item Hvor skal man gøre det?
-            \item Hvor bliver det gjort?
-            \item Hvor burde det blive gjort?
-            \item Hvor kan det ellers gøres?
-            \item Hvor burde det ellers gøres?
+            \item Hvor skal man ringe efter nødhjælp?
+            \item Hvor bliver det behandlet, i en krisesituation?
+            \item Hvor burde det blive gjort, at ringe efter nødhjælp?
         \end{itemize} \\
         \hline
         5. Hvornår? &
@@ -49,8 +45,6 @@ Her tager vi fat i en HV-model, som er en model til at finde ud af, hvordan man 
             \item Hvornår skal man gøre det?
             \item Hvornår bliver det gjort?
             \item Hvornår burde det blive gjort?
-            \item Hvornår kan det ellers gøres?
-            \item Hvornår burde det ellers gøres?
         \end{itemize} \\
         \hline
         6. Hvordan? &
@@ -58,7 +52,6 @@ Her tager vi fat i en HV-model, som er en model til at finde ud af, hvordan man 
             \item Hvordan gør man det?
             \item Hvordan bliver det gjort?
             \item Hvordan burde det blive gjort?
-            \item Kan denne metode bruges til andre områder?
             \item Er der en anden måde at gøre det på?
         \end{itemize} \\
         \hline
@@ -67,7 +60,88 @@ Her tager vi fat i en HV-model, som er en model til at finde ud af, hvordan man 
     \label{tab:hv-model}
 \end{table}
 
+\subsubsection{Beskrivelse af HV-modellen}
+\begin{enumerate}
+    \item Hvad? \\
+    %% I dætte tilfælde kommer vores app til at besvare alle de usikkerheder der kan opstå i en krisessituation.
+    I en krisesituation er det afgørende at kunne handle hurtigt og ikke mindst korrekt. Derfor ville en app være en god løsning til at hjælpe danskerne med at håndtere usikkerheder som eventuelt kunne opstå i en krisesituation, og tage borgeren i hånde og herved guide dem igennem processen.
+
+    Appen giver borgeren helt klare og professionelle instruktioner om, ham/hun skal håndtere nødssituationer. Den vigtigste handling er at rinnge 1-1-2, og appen guider vrugeren gennem opkaldet, så den nødvendige information bliver vidregivet til den relavante myndighed. Dette sparer værdigfuld tid i krisesituation, da der kan være et utal af mennesker som fortager opkald til alarmcentralen i tilfælde af f.eks. en naturkatastrofe.
+    
+    Alt afhængig af situationen, kan der være forskellige handlinger som skal tages. beredskabsstyrelsen har lavet en række anbefalinger på hvordan den almene borger bør forberede sig på eventuelle krier, heri denne vejledning findes seks "beredskabstips" som er følgende: "Kend til 1-1-2", "Kend nærområdets udfordringer", "Vid, hvordan du får information", "Sørg for, at du kan tilkalde hjælp", "Vær kildekritisk" og "Tænk over dine særlige behov". \footfullcite{DuerEndelafberedskabet} Disse anbefalinger bruger vi senere til at lave vores app. \ref{produktprincip}
+
+    Derudover bør man også sikre området - Undgå yderligere fare for dig selv eller andre (f.eks. trafik, brand, gaslækage). under situationen - Hvad er sket? Hvor mange er berørt? Hvilken type hjælp er nødvendig? Yd førstehjælp - Hvis du er i stand til det, og det er sikkert, så giv livreddende førstehjælp (f.eks. hjertemassage, stands blødning).\footfullcite{DanskFørstehjælp}
+    
+    \item Hvorfor? \\
+    I de fleste tilfælde er det en naturlig reaktion at ringe til 1-1-2 hvis man er i nød. Dette kan være fordi man står i en farlig situation, som man ikke selv kan håndtere grundet mangel på viden eller er i fare for at skade sig selv eller mangel på de nødvendige ressourcer til at håndtere situationen. Der kan også være en psykologisk grund til at ringe til 1-1-2, som er at man ikke er i stand til at håndtere situationen, og derfor har brug for hjælp.
+
+    det er den hurtigste måde at få hjælp på, og det er den mest effektive måde at få hjælp på. og på nuverende tidspunkt er der ikke gode apps som kan hjælpe mens man venter på hjælp, især hvis alarmcentralen ikke kan nås, eller de ikke har tid til at guide over telefonen.
+    
+    \item Hvem? \\
+    Oftest er det den anden part, som ikke selv er udsat i situationen, så det er vigtigt for personmen at vide hvordan de skal takle situationen. Og herfor vil en app være en god løsning til at hjælpe borgeren med at håndtere nødssituationer.
+
+    Vedkommende som fortager opkaldet til 1-1-2, afhænger af den konkrete situation, men oftest er det den person som ankommer til ulykkestedet først. Dog anbefales det at følge Dansk Førstehjælpsråds anbefalinger til hvordan man skal yde førstehjælp og hvordan man skal håndtere situationen. \footfullcite{DanskFørstehjælp}
+
+    Alle med en mobiltelefon kan ringe efter nødhjælp i Danmark selv uden et simkort, dette skyldes at 112 er en del af EU's sikkerhedsnetværk. Som dikterer at alle med en mobiltelefon kan ringe efter nødhjælp i Europa. \footfullcite{EENA}
+
+
+    \item Hvor? \\
+    Opkaldet til 1-1-2 skal foretages på stedet, hvor den pågældende ulykke er sket. De vigtigste punkter når opkaldet fortages er at det skal ske fra et sikkert sted, så ulykken ikke forværres, og at der gives præcise oplysninger om situationen her er det vigtigt aldrig at fortælle noget som du tror er sandt, men hvis du ikke er sikker på det.
+
+    Den akutte behandling vil oftest ske på stedet, og hvis det er en større ulykke så bliver det behandlet på et hospital.
+
+    \item Hvornår? \\
+    Når du finder person som har brug for hjælp, eller hvis du selv er i nød så skal et opkald til alarmcentralen foretages hurtigst muligt fordi der kan være en stor risiko for at personen ikke kan vente.
+    I risikosituationer er det vigtigt at reagere hurtigt og ikke mindst korrekt, når du ringer 1-1-2 så kan du forvente der går 5-20 minutter før ambulancen ankommer, og da en person som ikke trækker vejret kan være i fare for at dø, eller bliver permanent hjerneskadet ("Hjernen kan overleve meget kort tid uden ilt, uden at man får hjerneskade. Efter 4-5 minutters hjertestop, vil manhave svær hjerneskade hvis ikke der udøves hjertelungeredning.")\footfullcite{netdoktorHS} er det vigtigt at du ved hvad du skal gøre indtil hjælpen kommer. \\
+    \vspace{1em}
+    \item Hvordan? \\
+    Førstehjælp udføres jf. Dansk Førstehjælpsråd ved at følge disse 4 hovedpunkter \footfullcite{DanskFørstehjælp}:
+
+    \begin{itemize}
+        \item Sikre området:
+        Sørg for, at det er sikkert at hjælpe personen. Undgå yderligere fare for dig selv eller andre, som f.eks. trafik, brand eller gaslækage.
+
+        \item Vurdér personen:
+        Tjek om personen er ved bevidsthed. Spørg højt: "Er du okay?" Hvis der ikke er nogen reaktion, skal du kontrollere vejrtrækningen.
+
+        \item Tilkald hjælp:
+        Ring 1-1-2 og giv præcise oplysninger om situationen, herunder hvad der er sket, hvor det er sket, og hvor mange der er berørt.
+
+        \item Giv førstehjælp:
+        Jf. Dansk Førstehjælpsråd, udføres førstehjælpen ved at benytte sig af et af førstehjælpens huskeord M-ABC, hvilket er den rækkefølge førstehjælperen skal udføre den konkrete førstehjælp i. Disse betyder hhv. Massive bleeding, Airway, Breathing og Circulation; og er opstat således at det vigtigste er lægst mod venstre, og vigtigheden daler mod højre.\footfullcite{DanskFørstehjælp}
+    \end{itemize}
+
+    Disse trin kan redde liv og hjælpe med at stabilisere en person, indtil professionel hjælp når frem.
+
+
+\end{enumerate}
 \subsection{Spørgsmål B}
 Spørgsmålet fra problemformuleringen, som vi vil besvare i dette afsnit, er: ``Spørgsmål 2''.
 
 Vores spørgeskemaundersøgelse viste, at\ldots
+
+
+\subsection{Miljøovervejelser}
+
+\begin{enumerate}
+    \item Energieffektivitet \\
+    App'en skal være optimeret til lavt batteriforbrug, da den bruges i nødsituationer, hvor strøm kan være begrænset.
+    Push-notifikationer og GPS-tracking skal kun aktiveres ved behov da den ikke skal  køre konstant i baggrunden.
+    Begræns datalagring til det nødvendige, og slet automatisk inaktive eller unødvendige data.
+
+    \item Hardwarekompatibilitet \\
+    Appen bør understøtte ældre telefonmodeller for at forbedre deres levetid og mindske behovet for udskiftning.
+
+    \item Datatransport og netværksforbrug \\
+    Minimer datamængden appen sender og modtager, primært områder med lav netdækning
+\end{enumerate}
+
+\subsection{Brug af empiri}
+Vi har benyttet os af den kvantitative til at udarbejdet et spørgeskema, som 50 personer har besvaret. Spørgsmålene omhandlede nødsituationer, hvor der kan være behov for akut hjælp.\\
+Det første spørgsmål lød:\\
+\textbf{"Har du været ude for en nødsituation, der krævede øjeblikkelig hjælp – enten som vidne til eller deltager i en hændelse, f.eks. hjertestop?"}\\
+Her svarede 39 \% ja. Dette er særligt interessant, da ca. 4 ud af 5 danskere har lært førstehjælp. Det betyder, at cirka 8 \% af dem, der har oplevet en nødsituation, ikke har haft kompetencerne til at yde førstehjælp – hvilket kan få fatale konsekvenser.\footfullcite{beredskabsinfo} \\
+Dernæst spurgte vi, om deltagerne tidligere har ringet 1-1-2. Kun 26,3 \% svarede ja. Ser vi på de 8 \% uden førstehjælpsviden og krydser det med dem, der ikke har ringet 1-1-2, ender vi med, at omtrent 2 \% af alle, der har været i en nødsituation, hverken har kunnet yde førstehjælp eller tilkaldt hjælp. Statistisk set svarer det til, at ud af 1000 personer i en akut situation vil omkring 20 risikere at stå uden nogen form for hjælp – hvilket potentielt kan være livstruende.\\
+Vi har også spurgt, om folk har brugt SOS-funktionen på deres telefon. Hele 91,9 \% svarede nej. 
+Det vil sige af de 26,1 \%, som har ringet 1-1-2, har kun 8,1 \% anvendt telefonens indbyggede \textbf{SOS-funktion}. Det svarer til cirka 2,08 \% af det samlede antal, der har kontaktet alarmcentralen – altså en meget lav udnyttelse af en funktion, der ellers er bredt tilgængelig i moderne smartphones.\\
+Vil vil nu gå i dybden med det i konkurrentanalysen:

@@ -31,17 +31,31 @@
     \usepackage{ifthen}
     \usepackage{calc}
 \addbibresource{bibliography.bib}
-\hypersetup{colorlinks, linkcolor=blue, urlcolor=blue}
+
+% Configure bibliography to appear only once
+\defbibheading{bibliography}[\refname]{%
+  \section*{#1}%
+  \markboth{#1}{#1}%
+}
+
+% Configure hyperref for proper citation links
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue,
+    citecolor=blue,
+    pdfauthor={Rasmus Elias Sandkær \& Jeppe Bøgeskov Bech},
+    pdftitle={Eksamensprojekt},
+    pdfkeywords={},
+    pdfsubject={},
+    pdfcreator={Emacs 29.4 (Org mode 9.7.11)}, 
+    pdflang={Danish}
+}
+
 \author{Rasmus Elias Sandkær \& Jeppe Bøgeskov Bech}
 \date{\today}
 \title{Eksamensprojekt}
-\hypersetup{
-pdfauthor={Rasmus Elias Sandkær \& Jeppe Bøgeskov Bech},
-pdftitle={Eksamensprojekt},
-pdfkeywords={},
-pdfsubject={},
-pdfcreator={Emacs 29.4 (Org mode 9.7.11)}, 
-pdflang={Danish}}
 
 %% Start af dokumentet
 \begin{document}
@@ -68,6 +82,11 @@ pdflang={Danish}}
     \section{Problemanalyse}
     \input{./src/problemanalyse.tex}
 
+    \newpage 
+    \label{produktprincip}
+    \section{Produktprincip}
+    \input{./src/produktprincip.tex}
+
 
     %% Bibliografi
     \newpage
@@ -80,5 +99,24 @@ pdflang={Danish}}
         \subsection{Projektbeskrivelse \label{apx:projektbeskrivels}} \newpage
         \renewcommand*{\thepage}{A\arabic{page}}
         \includepdf[pages=-,delta=5 5,frame=true,landscape=false,nup=1x1,pagecommand={\thispagestyle{plain}}]{./projektbeskrivelse.pdf}
+        \subsection{Diagrammer fra spørgeskemaundersøgelse \label{apx:grafer}} \newpage
+        \renewcommand*{\thepage}{B\arabic{page}}
+        \begin{figure}[H]
+            \centering
+            \fbox{\includegraphics[width=0.8\textwidth]{images/img_1.png}}
+            \caption{Problemidentifikation}
+        \end{figure}
+
+        \begin{figure}[H]
+            \centering
+            \fbox{\includegraphics[width=0.8\textwidth]{images/Billede2.png}}
+            \caption{Problemtræ}
+        \end{figure}
+
+        \begin{figure}[H]
+            \centering
+            \fbox{\includegraphics[width=0.8\textwidth]{images/Billede3.png}}
+            \caption{Afgrænsning af problemtræ}
+        \end{figure}
     \end{appendices}
 \end{document}

@@ -16,5 +16,75 @@
   {}
 \endgroup
 
-\datalist[entry]{nty/global//global/global/global}\enddatalist
+\datalist[entry]{nty/global//global/global/global}
+  \entry{DanskFørstehjælp}{online}{}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{title}{Dansk Førstehjælp}
+    \verb{url}
+    \verb https://foerstehjaelpsraad.dk/forstehjaelper/
+    \endverb
+    \field{urlday}{29}
+    \field{urlmonth}{04}
+    \field{urlyear}{2025}
+  \endentry
+
+  \entry{EENA}{online}{}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{E}
+    \field{sortinithash}{E}
+    \field{title}{EENA}
+    \verb{url}
+    \verb https://eena.org/
+    \endverb
+    \field{urlday}{29}
+    \field{urlmonth}{04}
+    \field{urlyear}{2025}
+  \endentry
+
+  \entry{beredskabsinfo}{online}{}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{title}{Fire ud af fem danskere har været på førstehjælpskursus}
+    \verb{url}
+    \verb https://www.beredskabsinfo.dk/praehospital/fire-ud-af-fem-danskere-ha
+    \verb r-vaeret-paa-foerstehjaelpskursus/#:~:text=Helt%20nye%20tal%20viser%2
+    \verb C%20at,og%20at%20bruge%20en%20hjertestarter
+    \endverb
+    \field{urlday}{30}
+    \field{urlmonth}{04}
+    \field{urlyear}{2025}
+  \endentry
+
+  \entry{netdoktorHS}{online}{}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{title}{Hjærtestop}
+    \verb{url}
+    \verb https://netdoktor.dk/hjerte-og-blod/ordbog/hjertestop/
+    \endverb
+    \field{urlday}{29}
+    \field{urlmonth}{04}
+    \field{urlyear}{2025}
+  \endentry
+
+  \entry{DuerEndelafberedskabet}{online}{}{}
+    \list{organization}{1}{%
+      {Beredskabstyrelsen}%
+    }
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{title}{Sådan forbereder du dig}
+    \verb{url}
+    \verb https://www.brs.dk/da/borger/var-klar-nar-krisen-rammer/forbereddig/
+    \endverb
+    \field{urlday}{29}
+    \field{urlmonth}{04}
+    \field{urlyear}{2025}
+  \endentry
+\enddatalist
 \endinput
