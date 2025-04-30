@@ -11,14 +11,15 @@
 \contentsline {subsection}{\numberline {3.2}Spørgsmål B}{10}{subsection.3.2}%
 \contentsline {subsection}{\numberline {3.3}Miljøovervejelser}{10}{subsection.3.3}%
 \contentsline {subsection}{\numberline {3.4}Brug af empiri}{11}{subsection.3.4}%
-\contentsline {section}{\numberline {4}Produktprincip}{12}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Krav til produktet}{12}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Løsningskoncepter}{12}{subsection.4.2}%
-\contentsline {subsubsection}{\numberline {4.2.1}Koncept 1}{12}{subsubsection.4.2.1}%
-\contentsline {subsubsection}{\numberline {4.2.2}Koncept 2}{12}{subsubsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.3}Konkurrentanalyse}{12}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Endeligt produkt}{12}{subsection.4.4}%
-\contentsline {section}{Litteraturliste}{14}{section*.2}%
-\contentsline {section}{Appendiks}{15}{section*.3}%
-\contentsline {subsection}{\numberline {A}Projektbeskrivelse }{16}{subsection.1..1}%
-\contentsline {subsection}{\numberline {B}Diagrammer fra spørgeskemaundersøgelse }{A18}{subsection.1..2}%
+\contentsline {subsection}{\numberline {3.5}Konkurrentanalyse}{12}{subsection.3.5}%
+\contentsline {section}{\numberline {4}Produktprincip}{14}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Krav til produktet}{14}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Løsningskoncepter}{14}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}Koncept 1}{14}{subsubsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2}Koncept 2}{14}{subsubsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.3}Konkurrentanalyse}{14}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Endeligt produkt}{14}{subsection.4.4}%
+\contentsline {section}{Litteraturliste}{16}{section*.2}%
+\contentsline {section}{Appendiks}{17}{section*.3}%
+\contentsline {subsection}{\numberline {A}Projektbeskrivelse }{18}{subsection.1..1}%
+\contentsline {subsection}{\numberline {B}Diagrammer fra spørgeskemaundersøgelse }{A20}{subsection.1..2}%
